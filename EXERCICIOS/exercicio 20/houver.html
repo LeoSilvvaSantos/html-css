@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        @font-face {
+            font-family: "love" ;
+            src: url(fontes/I\ Love\ What\ You\ Do!!...ttf) format("truetype")
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div p {
+            display: none;
+        }
+
+        
+        div:hover > p{
+            display: block;
+            background-color: red;
+            color: white;
+            font-family: "love";
+            font-size: x-large;
+            font-weight: bolder;
+            width: 200px;
+        }
+
+        p.JC{
+            display: none
+        }
+        :hover > .JC{
+            display: block;
+            background-color: aqua;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            width: 500px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Exemplo</h1>
+    <p>Passe o mouse sobre o texo abaixo</p>
+    
+        <p>Não passe o mouse aqui! estou te avisando, não irá te mostrar nada!</p>
+    <div>
+        Passe o mouse aqui!
+        <p>EU AMO A MINHA NANE PARA SEMPREEEEEEEEEEE!</p>
+    </div>
+    <p>Fim do exemplo</p>
+        Passe o Mouse
+    <p class="JC"> JESUS É O CAMINHO, A VERDADE E A VIDA! DEUS TE ABENÇOE !</p>
+</body>
+</html>
