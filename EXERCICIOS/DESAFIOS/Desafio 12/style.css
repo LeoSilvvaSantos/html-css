@@ -63,6 +63,7 @@ section {
 .section2{
     background-image: url('imagens/background001.jpg');
     background-position: center center;
+    background-attachment: fixed;
 }
 
 .section2 > p{
@@ -79,6 +80,7 @@ section {
 .section3{
     background-image: url('imagens/background002.jpg');
     background-position: center center;
+    background-attachment: fixed;
 }
 
 .section3 > p{
