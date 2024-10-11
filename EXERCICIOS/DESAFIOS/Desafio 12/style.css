@@ -18,7 +18,7 @@ a{
 }
 
 a:hover {
-
+    text-decoration: underline;
 }
 
 header {
@@ -31,26 +31,24 @@ h1 {
 
     color: white;
     font-family: "Passion One" ;
-    padding: 50px;
+    padding-top: 50px;
     font-variant: small-caps;
-    font-size: 4em;
+    font-size: 10vw;
 
 }
 
 header > p{
     font-family: "Sriracha";
     color: rgb(148, 146, 146);
-    padding-bottom: 50px ;
+    padding-bottom: 41px ;
     position: relative;
-
-    bottom: 45px;
-   
 }
 
 section {
+
     padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 20px;
+    padding-bottom: 10vh; 
+    padding-left: 30px;
     line-height: 2em ;
 }
 
@@ -58,39 +56,40 @@ section {
     font-family: "Sriracha";
     font-size: 1.5em;
     background-color: rgb(255, 255, 255);
+    font-size: 3.5vw;
+
 }
 
 .section2{
-    background-image: url('imagens/background001.jpg');
-    background-position: center center;
-    background-attachment: fixed;
+
+    background: url('imagens/background001.jpg') right center no-repeat fixed;
+    background-size: cover ;
+
 }
 
 .section2 > p{
     color: white;
-    background-color: rgba(0, 0, 0, 0.182) ;
+    background-color: rgba(0, 0, 0, 0.496) ;
     font-family: "Sriracha";
-    width: 350px;
-    padding: 10px ;
-    padding-left: 20px;
-    font-size: 1.5em;
+    width: 42vw;
+    font-size: 3.5vw;
     line-height: 2em;
 }
 
 .section3{
-    background-image: url('imagens/background002.jpg');
-    background-position: center center;
-    background-attachment: fixed;
+
+    background: url('imagens/background002.jpg') left center fixed ;
+    background-size: cover ;
+
 }
 
 .section3 > p{
+    text-shadow: 1px 1px 2px black;
     color:white;
-    background-color: rgba(0, 0, 0, 0.182) ;
+    background-color: rgba(0, 0, 0, 0.496) ;
     font-family: "Sriracha";
-    width: 350px;
-    padding: 10px ;
-    padding-left: 20px;
-    font-size: 1.5em;
+    width: 42vw;
+    font-size: 3.5vw;
     line-height: 2em;
 }
 
